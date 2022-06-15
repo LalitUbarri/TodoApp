@@ -1,0 +1,120 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.dropdown_container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dorp_outer {
+  width: 400px;
+  padding: 20px;
+  border: 1px solid var(--borderColor);
+  border-radius: 10px;
+}
+.mt-5 {
+  margin-top: 50px;
+}
+.table {
+  width: 400px;
+  border: 1px solid var(--borderColor);
+}
+.thead,
+.tbody {
+  display: flex;
+}
+.th,
+.td {
+  width: 33.33%;
+  border: 1px solid var(--borderColor);
+}
+
+.dropdown_select {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid var(--borderColor);
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.TodoApp {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.inner_table {
+  width: 100%;
+  border: 1px solid var(--borderColor);
+  padding: 10px;
+  border-radius: 10px;
+}
+.table1 {
+  width: 400px;
+  padding: 10px 20px;
+  text-align: left;
+}
+.inner_table {
+  display: flex;
+  justify-content: space-between;
+}
+.delet {
+  color: red;
+  cursor: pointer;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+.todo_outer {
+  width: 400px;
+  border: 1px solid var(--borderColor);
+  border-radius: 10px;
+  display: flex;
+  padding: 10px;
+}
+.intputBox {
+  width: 70%;
+  padding: 10px;
+}
+.submt_btn {
+  width: 30%;
+  border: 1px solid var(--borderColor);
+  border-left: 0px;
+}
